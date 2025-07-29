@@ -3,10 +3,10 @@ const app = express();
 app.use(express.json());
 app.use(require('cors')());
 
-const fullName = "john_doe";
-const dob = "17091999";
-const email = "john@xyz.com";
-const rollNumber = "ABCD123";
+const fullName = "navneet";
+const dob = "17092004";
+const email = "nav@xyz.com";
+const rollNumber = "nav123";
 
 app.post('/bfhl', (req, res) => {
   try {
